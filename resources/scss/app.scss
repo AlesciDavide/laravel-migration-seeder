@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(236, 173, 255);
+}
 h1,
 h3{
     text-align: center;
@@ -20,6 +23,7 @@ h3{
     width: calc(100% /4);
     margin: 1rem;
     border: 2px double black;
+    background-color: beige;
         *{
             margin-bottom: .5rem;
         }

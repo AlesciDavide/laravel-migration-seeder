@@ -3,7 +3,6 @@
 
     @section('main-content')
 
-    @dump($trains);
 
     <h1>Ecco i treni in partenza oggi!!</h1>
     <section class="container">
