@@ -19,6 +19,10 @@
                     <p>Orario di partenza: {{$train->orario_di_partenza}}</p>
                     <p>Orario di arrivo: {{$train->orario_di_arrivo}}</p>
                     <p>Codice Treno: {{$train->codice_treno}} </p>
+                    <p>Il treno è: {{ ($train->in_orario) ? 'in orario.' : 'in ritardo.'}}</p>
+                    @if ($train->cancellato)
+                    <p class="Treno_cancellato">Il treno è stato cancellato. </p>
+                    @endif
                 </div>
         </article>
 
